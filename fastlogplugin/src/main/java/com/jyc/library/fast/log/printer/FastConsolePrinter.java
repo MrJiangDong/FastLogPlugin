@@ -1,6 +1,5 @@
 package com.jyc.library.fast.log.printer;
 
-
 import static com.jyc.library.fast.log.FastLogConfig.MAX_LEN;
 
 import android.util.Log;

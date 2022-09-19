@@ -7,8 +7,6 @@ import android.util.TypedValue;
 import android.view.Display;
 import android.view.WindowManager;
 
-import java.util.Objects;
-
 
 /// @author jyc
 /// 创建日期：2021/4/26
@@ -17,6 +15,7 @@ public class FastLogDisplayUtil {
     public static int dp2px(float dp, Resources resources) {
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, resources.getDisplayMetrics());
     }
+
 
     public static int sp2px(float sp, Resources resources) {
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, sp, resources.getDisplayMetrics());

@@ -2,6 +2,7 @@ package com.jyc.library.fast.log;
 
 import androidx.annotation.NonNull;
 
+
 import com.jyc.library.fast.log.printer.FastLogPrinter;
 
 import java.util.ArrayList;

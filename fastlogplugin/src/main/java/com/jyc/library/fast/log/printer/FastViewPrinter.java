@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+
 import com.jyc.library.fast.log.FastLogConfig;
 import com.jyc.library.fast.log.FastLogType;
 import com.jyc.library.fast.log.R;
