@@ -7,6 +7,7 @@ import com.jyc.library.fast.log.FastLogConfig
 import com.jyc.library.fast.log.FastLogManager
 import com.jyc.library.fast.log.printer.FastConsolePrinter
 import com.jyc.library.fast.log.printer.FastFilePrinter
+import com.jyc.library.fast.log.printer.FastViewPrinter
 
 
 /// @author jyc
@@ -39,7 +40,7 @@ class MyApplication : Application() {
             FastConsolePrinter(),
             FastFilePrinter.getInstance(
                 FastFilePrinter.getDiskCachePath(applicationContext), 0
-            )
+            ),
         )
 
         FastLog.a(
