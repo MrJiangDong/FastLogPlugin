@@ -42,5 +42,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation 'com.google.code.gson:gson:2.8.9'
-    implementation project(path: ':fastlogplugin')
+//    implementation project(path: ':fastlogplugin')
+    implementation 'io.github.mrjiangdong:FastLogPlugin:1.0.0'
 }
